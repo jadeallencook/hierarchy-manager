@@ -1,0 +1,50 @@
+[
+  {
+    "id": "786347",
+    "cc_code": "US",
+    "hierarchy_name": "HIERARCHY_1",
+    "is_leaf": false,
+    "level_number": 2,
+    "parent": null
+  },
+  {
+    "id": "986734",
+    "cc_code": "OPERATIONS",
+    "hierarchy_name": "HIERARCHY_1",
+    "is_leaf": false,
+    "level_number": 1,
+    "parent": "786347"
+  },
+  {
+    "id": "856437",
+    "cc_code": "SALES",
+    "hierarchy_name": "HIERARCHY_1",
+    "is_leaf": false,
+    "level_number": 1,
+    "parent": "786347"
+  },
+  {
+    "id": "988865",
+    "cc_code": "TEAM A",
+    "hierarchy_name": "HIERARCHY_1",
+    "is_leaf": true,
+    "level_number": 0,
+    "parent": "986734"
+  },
+  {
+    "id": "346587",
+    "cc_code": "TEAM B",
+    "hierarchy_name": "HIERARCHY_1",
+    "is_leaf": true,
+    "level_number": 0,
+    "parent": "986734"
+  },
+  {
+    "id": "234233",
+    "cc_code": "TEAM C",
+    "hierarchy_name": "HIERARCHY_1",
+    "is_leaf": true,
+    "level_number": 0,
+    "parent": "856437"
+  }
+]

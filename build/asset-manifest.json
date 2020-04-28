@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Hierarchy-Manager/build/static/css/main.7c47ef5e.chunk.css",
+    "main.js": "/Hierarchy-Manager/build/static/js/main.9f68b66a.chunk.js",
+    "main.js.map": "/Hierarchy-Manager/build/static/js/main.9f68b66a.chunk.js.map",
+    "runtime-main.js": "/Hierarchy-Manager/build/static/js/runtime-main.78c0e72d.js",
+    "runtime-main.js.map": "/Hierarchy-Manager/build/static/js/runtime-main.78c0e72d.js.map",
+    "static/js/2.7e3305d3.chunk.js": "/Hierarchy-Manager/build/static/js/2.7e3305d3.chunk.js",
+    "static/js/2.7e3305d3.chunk.js.map": "/Hierarchy-Manager/build/static/js/2.7e3305d3.chunk.js.map",
+    "index.html": "/Hierarchy-Manager/build/index.html",
+    "precache-manifest.14e7f3d9cd79b60780749a3e967c28d9.js": "/Hierarchy-Manager/build/precache-manifest.14e7f3d9cd79b60780749a3e967c28d9.js",
+    "service-worker.js": "/Hierarchy-Manager/build/service-worker.js",
+    "static/css/main.7c47ef5e.chunk.css.map": "/Hierarchy-Manager/build/static/css/main.7c47ef5e.chunk.css.map",
+    "static/js/2.7e3305d3.chunk.js.LICENSE.txt": "/Hierarchy-Manager/build/static/js/2.7e3305d3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.78c0e72d.js",
+    "static/js/2.7e3305d3.chunk.js",
+    "static/css/main.7c47ef5e.chunk.css",
+    "static/js/main.9f68b66a.chunk.js"
+  ]
+}
