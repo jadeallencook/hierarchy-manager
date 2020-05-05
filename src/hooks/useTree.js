@@ -43,7 +43,7 @@ const useTree = () => {
       );
   }, []);
 
-  return { root, map, trees, setTree };
+  return { root, map, trees, setTree, setMap };
 };
 
 export default useTree;

@@ -4,13 +4,13 @@ import List from './List';
 const Item = (props) => {
   const [showChildren, setShowChildren] = useState(false);
   const { map, id } = props;
-  const { is_leaf, cc_code, children } = map[id];
+  const { cc_code, children } = map[id];
   return (
     <li
       data-key={id}
-      className={is_leaf ? `leaf` : null}
+      className={!children.length ? `leaf` : null}
       onClick={(event) => {
-        if (event.target.getAttribute('data-key') === id) {
+        if (event.target.getAttribute('data-key') === id && children) {
           setShowChildren(!showChildren);
         }
       }}
