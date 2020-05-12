@@ -1,50 +1,114 @@
 [
   {
-    "id": "786347",
-    "cc_code": "US",
-    "hierarchy_name": "HIERARCHY_1",
-    "is_leaf": false,
-    "level_number": 2,
-    "parent": null
+    "id": "dillon",
+    "cc_code": "Dillon Suhayl",
+    "hierarchy_name": "lea-osbeorn-team",
+    "parent": null,
+    "description": "A vice president of sales oversees daily sales activity, meets with major clients, draws up sales reports, designs new and more effective sales strategies, and works to market and promote company products and services.",
+    "alias": "VP, Sales & Marketing"
   },
   {
-    "id": "986734",
-    "cc_code": "OPERATIONS",
-    "hierarchy_name": "HIERARCHY_1",
-    "is_leaf": false,
-    "level_number": 1,
-    "parent": "786347"
+    "id": "hung",
+    "cc_code": "Hùng Lis",
+    "hierarchy_name": "lea-osbeorn-team",
+    "parent": null,
+    "description": "Owning the vision of the product and the roadmap. Staying on top of the competition and knowing everything they're doing and then figuring out which of those actions need a response and which are noise.",
+    "alias": "VP, Product"
   },
   {
-    "id": "856437",
-    "cc_code": "SALES",
-    "hierarchy_name": "HIERARCHY_1",
-    "is_leaf": false,
-    "level_number": 1,
-    "parent": "786347"
+    "id": "sales",
+    "cc_code": "Sales",
+    "hierarchy_name": "lea-osbeorn-team",
+    "parent": "dillon",
+    "description": "",
+    "alias": ""
   },
   {
-    "id": "988865",
-    "cc_code": "TEAM A",
-    "hierarchy_name": "HIERARCHY_1",
-    "is_leaf": true,
-    "level_number": 0,
-    "parent": "986734"
+    "id": "marketing",
+    "cc_code": "Marketing",
+    "hierarchy_name": "lea-osbeorn-team",
+    "parent": "dillon",
+    "description": "",
+    "alias": ""
   },
   {
-    "id": "346587",
-    "cc_code": "TEAM B",
-    "hierarchy_name": "HIERARCHY_1",
-    "is_leaf": true,
-    "level_number": 0,
-    "parent": "986734"
+    "id": "vishal",
+    "cc_code": "Vishal Ela",
+    "hierarchy_name": "lea-osbeorn-team",
+    "parent": "marketing",
+    "description": "",
+    "alias": "Marketing Manager"
   },
   {
-    "id": "234233",
-    "cc_code": "TEAM C",
-    "hierarchy_name": "HIERARCHY_1",
-    "is_leaf": true,
-    "level_number": 0,
-    "parent": "856437"
+    "id": "ngaio",
+    "cc_code": "Ngaio Marna",
+    "hierarchy_name": "lea-osbeorn-team",
+    "parent": "marketing",
+    "description": "",
+    "alias": "Marketing Co-ordinator"
+  },
+  {
+    "id": "mateus",
+    "cc_code": "Mateus Sebastian",
+    "hierarchy_name": "lea-osbeorn-team",
+    "parent": "sales",
+    "description": "",
+    "alias": "Inbound Sales Executive"
+  },
+  {
+    "id": "gurutz",
+    "cc_code": "Gurutz Lakshmi",
+    "hierarchy_name": "lea-osbeorn-team",
+    "parent": "sales",
+    "description": "",
+    "alias": "Outbound Sales Executive"
+  },
+  {
+    "id": "development",
+    "cc_code": "Development",
+    "hierarchy_name": "lea-osbeorn-team",
+    "parent": "hung",
+    "description": "Software development is the process of conceiving, specifying, designing, programming, documenting, testing, and bug fixing involved in creating and maintaining applications, frameworks, or other software components.",
+    "alias": ""
+  },
+  {
+    "id": "design",
+    "cc_code": "Design",
+    "hierarchy_name": "lea-osbeorn-team",
+    "parent": "hung",
+    "description": "",
+    "alias": ""
+  },
+  {
+    "id": "penelope",
+    "cc_code": "Penelope Bidelia",
+    "hierarchy_name": "lea-osbeorn-team",
+    "parent": "design",
+    "description": "",
+    "alias": "Product Designer"
+  },
+  {
+    "id": "marianna",
+    "cc_code": "Marianna Vida",
+    "hierarchy_name": "lea-osbeorn-team",
+    "parent": "design",
+    "description": "",
+    "alias": "Researcher"
+  },
+  {
+    "id": "grahame",
+    "cc_code": "Grahame Bast",
+    "hierarchy_name": "lea-osbeorn-team",
+    "parent": "development",
+    "description": "",
+    "alias": "Development Manager"
+  },
+  {
+    "id": "katarin",
+    "cc_code": "Katarin Noelle",
+    "hierarchy_name": "lea-osbeorn-team",
+    "parent": "development",
+    "description": "",
+    "alias": "Developer"
   }
 ]

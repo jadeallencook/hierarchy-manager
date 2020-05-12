@@ -7,40 +7,37 @@ const useTree = () => {
   const [tree, setTree] = useState('');
 
   useEffect(() => {
-    let level = 0;
     fetch('./assets/response.json')
       .then((response) => response.json())
-      .then((nodes) =>
+      .then((nodes) => {
+        const object = {};
         nodes.forEach((node) => {
-          const { id, parent, level_number, hierarchy_name } = node;
+          const { id, parent, hierarchy_name } = node;
           if (trees.indexOf(hierarchy_name) === -1) {
-            setTrees([...trees, hierarchy_name]);
+            setTrees((prev) => [...prev, hierarchy_name]);
           }
           if (!tree) {
             setTree(hierarchy_name);
           }
-          if (level_number > level) {
-            level = level_number;
-            setRoot([id]);
-          } else if (level_number === level) {
-            setRoot([...root, id]);
+          if (!parent) {
+            setRoot((prev) => [...prev, id]);
           }
-          if (!map[id]) {
-            map[id] = { ...node, children: [] };
+          if (!object[id]) {
+            object[id] = { ...node, children: [] };
           } else {
-            map[id] = { ...map[id], ...node };
+            object[id] = { ...object[id], ...node };
           }
-          if (parent && !map[parent]) {
-            map[parent] = { children: [id] };
+          if (parent && !object[parent]) {
+            object[parent] = { children: [id] };
           } else if (parent) {
-            map[parent] = {
-              ...map[parent],
-              children: [...map[parent].children, id],
+            object[parent] = {
+              ...object[parent],
+              children: [...object[parent].children, id],
             };
           }
-          setMap(map);
-        })
-      );
+        });
+        setMap(object);
+      });
   }, []);
 
   return { root, map, trees, setTree, setMap };

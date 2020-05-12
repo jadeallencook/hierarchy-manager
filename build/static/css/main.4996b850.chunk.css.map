@@ -1,1 +1,0 @@
-{"version":3,"sources":["App.scss"],"names":[],"mappings":"AAAA,QAEQ,cAAe,CAFvB,aAKQ,WAAY","file":"main.4996b850.chunk.css","sourcesContent":[".App {\n    li {\n        cursor: pointer;\n    }\n    li.leaf {\n        color: green;\n    }\n}\n"]}

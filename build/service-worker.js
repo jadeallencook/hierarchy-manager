@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Hierarchy-Manager/build/precache-manifest.cfea6e675f545988aea656b127689695.js"
+  "/Hierarchy-Manager/build/precache-manifest.b89cb8a8094ed6f20bbce39b6ff54f32.js"
 );
 
 self.addEventListener('message', (event) => {

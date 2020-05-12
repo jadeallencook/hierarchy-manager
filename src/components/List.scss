@@ -1,0 +1,49 @@
+$green: #1dac18;
+
+ul.List {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  list-style: disc;
+
+  div {
+    display: inline-block;
+  }
+
+  li {
+    margin-top: 5px;
+    cursor: pointer;
+    span {
+      background-color: #ddd;
+      margin-left: 5px;
+      padding: 1px 5px;
+      border-radius: 5px;
+      font-size: 0.75em;
+      color: #000;
+    }
+    span:hover {
+      opacity: 0.75;
+    }
+  }
+
+  li.leaf {
+    color: $green;
+  }
+
+  span.primary-highlight {
+    background-color: $green;
+    color: #fff;
+  }
+
+  span.warning {
+    background-color: #df2d2d;
+    color: #fff;
+  }
+  span.secondary-highlight {
+    background-color: #2d8fdf;
+    color: #fff;
+  }
+}
